@@ -17,6 +17,11 @@ export default function Home() {
             <h2 className="text-2xl font-semibold mb-3">Text Circles Demo →</h2>
             <p>Demo showing how to create and position text circles on a page.</p>
           </Link>
+
+          <Link href="/circle-connections" className="p-6 border rounded-lg hover:bg-blue-50 transition-colors">
+            <h2 className="text-2xl font-semibold mb-3">Circle Connections →</h2>
+            <p>Creating connections via arrows to circles.</p>
+          </Link>
         </div>
       </div>
     </main>
