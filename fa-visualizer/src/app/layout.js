@@ -1,16 +1,18 @@
-import "./globals.css";
+import './globals.css'
 
+
+// app/layout.js
 export const metadata = {
-  title: "Finite Automata Visualizer",
-  description: "Visualize finite automata easily",
-};
+  title: 'Next.js App with Tables and Circles',
+  description: 'A Next.js application with table inputs and dynamic circle components',
+}
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-white text-black">
+      <body>
         {children}
       </body>
     </html>
-  );
+  )
 }
